@@ -5,12 +5,6 @@ Diya Shakoor
 
 Emmanuel Walters
 
-
-Diya Shakoors alt
-
-Diya Shakoors alt x2
-
-
 Jada Stokes
 
 
