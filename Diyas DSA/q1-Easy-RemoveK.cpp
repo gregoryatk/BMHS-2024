@@ -24,8 +24,8 @@ using namespace std;
 
 // Restrictions
 
-// 0 < len(k) < 2
-// 1 < len(TestString) < 50 
+// 0 < (k).length() < 2
+// 1 < (TestString).length() < 50 
 // Testlist only contains lowercase letters
 
 std::string mysolution(string str, string k);
