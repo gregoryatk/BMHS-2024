@@ -205,7 +205,6 @@ def RemoveKelement(TestString:str,k:str) -> str:
 
 
 
-
 import os
 def check():
     testcases = [["i hate leetcode","e"],["hello world","l"],["coding club","z"],["python is great","t"],["mr walther","r"],["java sucks","a"],["the quick brown fox jumps over the lazy dog","o"]]
