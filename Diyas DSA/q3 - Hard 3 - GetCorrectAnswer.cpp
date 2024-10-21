@@ -165,26 +165,6 @@ int mysolution( string nums[], int target, string equation) {
             r++;
         }
     }
-
-    r = 0;
-
-    while (true) {
-        try
-        {
-            x = remake[r];
-            if (x == "") {
-                break;
-            }
-            r++;
-        }
-        catch(const std::exception& e)
-        {
-            break;
-        }
-        
-    };
-    int l = 0;
-    int c = r/2;
     int a = 0;
     string ostack[4] = {};
     string stack[12] = {};
