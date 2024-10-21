@@ -2,7 +2,7 @@
 You are given a set of numbers from 1 through 100. 
 for every number that can be divided by 3 replace it with the word "fizz"
 for every number that can be divided by 5 replace it with the word "buzz"
-if a number is divisible by 3 and 5 replace it with the word "fizz buzz"
+if a number is divisible by 3 and 5 replace it with the word "fizzbuzz"
 YOU MUST EDIT THE LIST IN PLACE - meaning you cannot return a new list
 
 EXAMPLE 1
@@ -25,7 +25,29 @@ list comparison, check if float is an integer
 '''
 
 def FizzBuzz(TestList:list[int]) -> None: #REMEMBER TO EDIT THE LIST IN PLACE
-    pass
+    list1 = [] #create an empty list
+    list2 = [] #create an empty list
+    l = 1
+    r = 1
+
+    for i in range(-1,100,3): # loop through everything in the list starting at -1 adding by 3 until it reaches 100
+        list1.append(i) # add i to the list1
+    for i in range(-1,101,5): # loop through everything in the list starting at -1 adding by 5 until it reaches 101
+        list2.append(i) # add i to the list2
+
+    list1.append(" ")
+    list2.append(" ")
+
+    for i in range(len(TestList)): # go through the entirety of TestList
+        stack = "" # create an empty stack variable
+        if list1[l] == i: # if I is in your list of things divisible by three
+            stack+="fizz" # add fizz
+            l += 1 # move the pointer
+        if list2[r] == i: # if i is in your list of things divisible by five
+            stack+="buzz" # add buzz
+            r += 1 # move the pointer
+        if len(stack) != 0: #if the length of stack does not equal 0. if it does equal zero you dont want to replace the number
+            TestList[i] = stack # set testlist[i] to the stack
 
 
 
