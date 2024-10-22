@@ -34,6 +34,7 @@ std::string removeKelements(string str, string k);
 
 std::string removeKelements(string TestString, string k) {
     // Implement your solution here
+    return "";
 }
 
 
