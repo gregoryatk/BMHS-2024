@@ -32,30 +32,7 @@
 using namespace std;
 
 void FizzBuzz(string* TestList) {
-    int c = 0;
-    int r = 1;
-    int l = 1;
-
-    string stack = "";
-
-    while (c != 101) {
-        if (l * 3 == c+1) {
-            stack += "fizz";
-            l++;
-        }
-        if (r * 5 == c+1) {
-            stack += "buzz";
-            r++;
-        }
-
-        if (size(stack) != 0) {
-            TestList[0] = stack;
-        }
-        c++;
-        TestList += 1;
-        stack = "";
-    }
-
+    
 }
 
 
