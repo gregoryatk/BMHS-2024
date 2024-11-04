@@ -215,7 +215,7 @@ def check():
         if mysolution(i[0],i[1]) != Corporate_Greed(i[0],i[1]):
             return f'''
     Failed Testcase {x}
-    You suck at firing people with families
+    You suck at firing people with families to feed
 
     Tastcase:
         Pay {i[0]}
